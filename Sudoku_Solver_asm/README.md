@@ -1,7 +1,7 @@
 How to use: 
 
-as --32 sudoku_solver.asm -o sudoku_solver.o
-gcc -m32 sudoku_solver.o -o sudoku_solver
+as --32 sudoku_solver.asm -o sudoku_solver.o \n
+gcc -m32 sudoku_solver.o -o sudoku_solver \n
 ./sudoku_solver
 
 	Programul citeste un puzzle Sudoku 9x9 din fisierul "sudoku.txt". Input-ul are forma unei matrice, iar pentru spatiile 
